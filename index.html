@@ -75,12 +75,6 @@
           <button data-modal-open class="button-primary" type="button">
             Zamów usługe
           </button>
-          <div data-modal class="backdrop button-hidden">
-            <div class="modal">
-              To jest modal
-              <button data-modal-close type="button">Zamknij modal</button>
-            </div>
-          </div>
         </div>
       </section>
       <!--lorem -->
@@ -471,6 +465,11 @@
         </div>
       </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button class="button-close" data-modal-close type="button">x</button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
